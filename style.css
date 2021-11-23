@@ -1,0 +1,224 @@
+html,head,body{
+    padding:0;
+    margin:0;
+
+}
+
+
+.header {
+    display: flex;
+    
+    
+
+}
+
+.header .simple_menu{    /* 상단 죄측의 간편 메뉴 박스 */
+    width: 20%;
+    text-align: center;
+    
+    
+    
+}
+.menuimg{
+    width: 45px;
+    text-align: center;
+    margin: 32px;
+    
+}
+
+.header .login_box {
+    
+    margin: 35px;
+    width: 20%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 900;
+    
+    
+    
+}
+.login_text{
+
+    text-decoration: none;
+    color: black;
+}
+
+.header .title_box{
+    padding: 8px;
+    font-size: 35px;
+    text-align: center;
+    width: 60%;
+    font-family: 'Bungee', cursive;
+    
+}
+
+.menu{  /* 소개, 신청, 제작 과정 선택 메뉴 */
+
+    font-weight: 600;
+    padding: 1px;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(214, 214, 214);
+
+}
+
+
+
+.menu ul li a{
+    
+    font-size: 18px;
+    display: inline;
+    text-decoration: none;
+    margin: 30px;
+    
+    color: rgb(0, 0, 0);
+    list-style: none;
+    
+    
+}
+ .menu ul li {
+     display: inline;
+ }
+
+ .intro{
+     text-align: center;
+     color: white;
+     position:relative;
+ }
+ 
+ .intro .text{
+     position: absolute;
+     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+ }
+.intro .intro_button{
+
+    position: absolute;
+     top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.intro .intro_button .i_button {  /* 작곡, 코딩 사진에 있는 버튼 CSS */
+
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    width: 120px;
+    height: 60px;
+    outline: 1;
+    border-radius: 3px;
+    background-color:transparent;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.intro .intro_button .i_button:hover {  /* 작곡, 코딩 사진에 있는 버튼 HOVER CSS */
+
+    color: black;
+    font-size: 15px;
+    font-weight: 900;
+    width: 120px;
+    height: 60px;
+    outline: 1;
+    border-radius: 3px;
+    background-color:transparent;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.h1{
+    font-size: 35px;
+}
+
+.mainintro {
+    margin: 40px;
+    text-align: center;
+}
+
+
+.HJCimg { /*HTML,JS,CSS 사진 CSS*/
+    max-width: 50%;
+    height: auto;
+}
+
+.button{ /* 문의하기 버튼 CSS */
+    font-size: 18px;
+    font-weight: bolder;
+    width: 160px;
+    height: 60px;
+    background-color: rgb(148, 255, 196);
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+}
+
+.button:hover{ /* 문의하기 버튼 CSS */
+    font-size: 18px;
+    font-weight: bolder;
+    width: 160px;
+    height: 60px;
+    background-color: rgba(148, 255, 196, 0.692);
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+}
+
+.footer {
+    text-align: left;
+    
+    color: white;
+    
+    background-color: rgb(49, 49, 49);
+    height: 300px;
+    width: 100%;
+    
+    padding: 10px;
+
+}
+.footer .f_box1 { /* footer SOUND, WEB 이름 박스*/
+    text-align: center;
+
+}
+
+.footer .f_box2 { /* 제작자 정보 박스 */
+
+    text-align: center;
+    float: left;
+    width: 50%;
+    
+}
+
+.footer .f_box3 {  /* footer 채용 관련 박스 */
+    
+    text-align: center;
+    float: right;
+    width: 50%;
+
+    
+
+}
+
+.sub_infor{    /* 제작자 정보 아래 글 */
+    color: rgb(185, 185, 185);
+    font-size: 12px;
+
+}
+
+.employment_text {
+    
+    font-size: 14px;
+    color: rgb(185, 185, 185);
+    text-decoration: none;
+}
+
+
