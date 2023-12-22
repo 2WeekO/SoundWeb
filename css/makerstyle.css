@@ -1,0 +1,23 @@
+.box hh1{
+    
+    font-size: 50px;
+    font-weight: 900;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.box{
+    width: 100%;
+    
+    
+    margin-left: 50px;
+    margin-top: 150px;
+    
+}
+.progress{
+    height: 20px; 
+    width: 150px; 
+    border: 0;
+}
+.box hr{
+    
+    margin-right: 100px;    
+}

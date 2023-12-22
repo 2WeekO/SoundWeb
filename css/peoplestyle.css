@@ -1,0 +1,143 @@
+.bback_box{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+   display: inline-block;
+
+}
+.de_header{
+    background-color: transparent;
+    text-align: left;
+    margin-left: 40px;
+    color: rgb(23, 182, 129);
+}
+.de_box {
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.de_box1,.de_box2,.de_box3 {
+    background-color: rgb(230, 255, 212);
+    width: 600px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ap_header{
+    color: blueviolet;
+    margin-left: 40px;
+    background-color: transparent;
+    text-align: left;
+}
+.ap_box{
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.ap_box1,.ap_box2,.ap_box3,.ap_box4 {
+    text-align: center;
+    background-color: rgb(237, 190, 255);
+    width: 600px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.profile{        /*프로필 사진 칸*/
+    margin: 10px 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.405);
+}
+.profile_img{      /*프로필 사진*/
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.name h3{       /*프로필 옆 이름 & ID*/
+    padding: 8px;
+    border-radius: 20px;
+    background-color: rgb(32, 32, 32);
+}
+.userinfor{     /*개발자들 박스 정보*/
+    width: 100%;
+    height: 120px;
+    border-radius: 20px 20px 0px 0px;
+    background-color:rgb(120, 233, 158);
+    display: flex;
+    flex-wrap: wrap;
+}
+.userinfor2{      /*작곡가들 박스 정보*/
+    width: 100%;
+    height: 120px;
+    border-radius: 20px 20px 0px 0px;
+    background-color:rgb(195, 113, 228);
+    display: flex;
+    flex-wrap: wrap;
+}
+.spec{       /*보유 기술 & 프로그래밍 언어 칸*/
+    margin-bottom: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+    width: 100%;
+    height: 60px;
+    
+}
+.tech{      /* 보유 기술 & 프로그래밍 언어*/
+    background-color: rgb(66, 66, 66);
+    height: 20px;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 20px;
+    font-weight: 900;
+    color: white;
+    
+}
+.main_spec{      /*개발 경력, 메인 개발언어, 서버 기술 정보와 작품 박스*/
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    height: 215px;
+    width:100%;
+    background-color: rgba(155, 155, 155, 0);
+}
+
+
+.portpolio {
+    display: flex;
+}
+.portpolio_box {
+    background-color: rgba(149, 255, 128, 0.344);
+    margin-left: 10px;
+    width: 250px;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.port_btn{
+    width: 80%; 
+    height: 40%; 
+    border: 0; 
+    background-color: rgb(224, 253, 181);
+    border-radius: 10px;
+}
+
+.port_btn:hover{
+    width: 80%; 
+    height: 40%; 
+    border: 0; 
+    background-color: rgb(236, 255, 207);
+    border-radius: 10px;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/submitstyle.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="shortcut icon" type="image/x-icon"  href="images/logo.png" alt="사운드웹">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    
+    <title>의뢰서 작성</title>
+</head>
+<body class="body">
+
+    <div class="header">
+        <div class="search_box"> 
+            <div class="search">
+                <img class="search_btn" src="images/search_icon.png" alt="" width="40px">
+                <input class="search_input" type="text" placeholder=" Search" style="font-size: large;">
+            </div>
+        </div>
+
+      
+        <div class="title_box">
+            <img src="images/logo.png" alt="" width="60px">
+            <button class="title_button" onclick="location.href='index.html'">Sound, Web</button>
+        </div>
+        
+        <div class="login_box"> <!--로그인 박스-->
+            <a class="login_text" href="login.html">| 로그인 |</a>
+            <a class="login_text" href="join.html">| 회원가입 |</a>
+            
+        </div>
+    </div>
+
+    <div class="menu">
+        <ul>
+            <li><a href="introduce.html">웹사이트 소개</a></li>
+            <li><a href="people.html">개발자와 작곡가들</a></li>
+            <li><a href="submit.html">개발 신청</a></li>
+            <li><a href="maker.html">제작자 소개</a></li>
+
+        </ul>
+    </div>
+
+    <div class="backG">
+    <div data-aos="fade-in" class="submit">
+        <div class="title">
+            <h1>제작 의뢰서</h1>
+        </div>
+        <hr>
+        <div class="purpose">
+            <h3>만들고자 하는 것</h3>
+            <select name="how" id="how">
+                <option value="">소프트웨어 프로그램</option>
+                <option value="">홈페이지 제작</option>
+                <option value="">음악 작곡</option>
+            </select>
+            <h3>제목</h3>
+            <textarea name="title" id="title" cols="100" rows="2" >만들고자 하는 것의 제목(이름)을 작성해주세요.</textarea>
+            <h3>목적</h3>
+            <textarea name="purpose" id="purpose" cols="100" rows="6">만들고자 하는 것의 목적을 작성해주세요.</textarea>
+            <h3>내용(요약)</h3>
+            <textarea name="content" id="content" cols="100" rows="12">만들고자하는 것의 기능 또는 내용을 작성해주세요.</textarea>
+            <h3>기간</h3>
+            <select name="date" id="date">
+                <option value="">1개월</option>
+                <option value="">2개월</option>
+                <option value="">3개월</option>
+                <option value="">4개월</option>
+                <option value="">5개월</option>
+                <option value="">6개월</option>
+                <option value="">7개월</option>
+                <option value="">8개월</option>
+                <option value="">9개월</option>
+                <option value="">10개월</option>
+                <option value="">11개월</option>
+                <option value="">1년 이상</option>
+            
+            </select>     
+    </div>
+    <button id="kktalk" onclick="location.href='https://open.kakao.com/o/sy0xdaNd'">
+    <img id="kktalk" src="images/kktalk.gif" alt="카카오톡으로 상담하기">
+    </button>
+
+    <img src="images/mail_img.png" alt="메일로 제출" 
+    width="150px" 
+    style="margin-left: 60px; margin-bottom: 40px;"
+    onclick="location.href='mailto:boom568@naver.com'">
+
+    <script>
+        function submit() {
+            alert("제출 완료 되었습니다.")
+        }
+    </script>
+
+    <div class="submit_bt">
+        <button class="submit_btn" onclick="location.href='javascript:submit()'"><h4>제출하기</button>
+    </div>
+
+    </div>
+
+</body>
+</html>
